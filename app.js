@@ -15,7 +15,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
-app.use('/vendor', express.static(path.join(__dirname, 'vendor')));
 app.use('/models', express.static(path.join(__dirname, 'models')));
 app.use('/routes', express.static(path.join(__dirname, 'routes')));
 app.use('/vendor', express.static(path.join(__dirname, 'vendor')));

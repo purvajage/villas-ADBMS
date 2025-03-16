@@ -12,9 +12,16 @@
         "dest": "/assets/$1"
       },
       {
+        "src": "/vendor/(.*)",
+        "dest": "/vendor/$1"
+      },
+      {
         "src": "/public/(.*)",
         "dest": "/public/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/public/index.html"
       }
     ]
   }
-  
